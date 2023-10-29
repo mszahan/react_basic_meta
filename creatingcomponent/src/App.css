@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.hello {
+  color: #61dafb;
+  text-align: center;
+}
+
+.para{
+  text-align:center;
+}
+
+.main-nav > ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.main-nav ul li {
+  list-style-type: none;
+  color: #124e5f;
+  font-size: 1.25rem;
+}
