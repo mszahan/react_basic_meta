@@ -2,7 +2,7 @@ function Bag (props){
     const bag = {
         padding: "20px",
         border: "1px solid gray",
-        background: "#fff",
+        backgroundColor: "#fffcde",
         margin: "20px 0"
     }
 

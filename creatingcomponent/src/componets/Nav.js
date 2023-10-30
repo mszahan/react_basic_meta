@@ -1,4 +1,4 @@
-function Nav(props){
+const Nav = props => {
     return(
         <nav className='main-nav'>
             <ul>
@@ -11,6 +11,6 @@ function Nav(props){
             </ul>
         </nav>
     );
-}
+    }
 
 export default Nav;
