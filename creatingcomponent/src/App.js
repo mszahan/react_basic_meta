@@ -7,6 +7,12 @@ import Apples from './componets/propsChildren/Apples';
 import Pears from './componets/propsChildren/Pears';
 
 
+// embedding atribute and adding image 
+function Pic (props) {
+  const reactLogo = <img src={logo} className='react-logo'/>;
+  return reactLogo;
+}
+
 
 function App() {
   return( 
@@ -14,6 +20,10 @@ function App() {
       <Nav title='Props'/>
       <Header name='Vues Enemy'/>
       <p className='para'>this is the paragraph</p>
+      <div className='pic-div'>
+      <Pic/>
+      </div>
+
       {/* The bag has props.children so it's working */}
       <Bag>
         <Apples color="yellow" number="5"/>
