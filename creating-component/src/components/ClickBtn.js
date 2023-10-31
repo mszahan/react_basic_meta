@@ -10,6 +10,8 @@ function ClickBtn() {
 
   return (
     <>
+    {/* you cannot invoc event handeler function in react with parenthesis
+    you just need to reference the function without parenthesis */}
       <button onClick={clickHandler} className='button-primary'>
         Click me
       </button>
