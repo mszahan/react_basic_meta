@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Bag from './components/propsChildren/Bag';
 import Apples from './components/propsChildren/Apples';
 import Pears from './components/propsChildren/Pears';
+import ClickBtn from './components/ClickBtn';
 
 
 // embedding atribute and adding image 
@@ -22,6 +23,8 @@ function App() {
       <p className='para'>this is the paragraph</p>
       <div className='pic-div'>
       <Pic/>
+      <ClickBtn/>
+
       </div>
 
       {/* The bag has props.children so it's working */}

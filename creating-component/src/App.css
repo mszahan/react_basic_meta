@@ -66,3 +66,13 @@
 .react-logo {
   width: 30%;
 }
+.button-primary {
+
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  color: #eee6e6;
+  border: 0;
+  background: #2a7077;
+  border-radius: 20px;
+}
