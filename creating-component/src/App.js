@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from './componets/Nav';
-import Header from './componets/Header';
-import Bag from './componets/propsChildren/Bag';
-import Apples from './componets/propsChildren/Apples';
-import Pears from './componets/propsChildren/Pears';
+import Nav from './components/Nav';
+import Header from './components/Header';
+import Bag from './components/propsChildren/Bag';
+import Apples from './components/propsChildren/Apples';
+import Pears from './components/propsChildren/Pears';
 
 
 // embedding atribute and adding image 
