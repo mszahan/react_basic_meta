@@ -9,6 +9,9 @@ import ClickBtn from './components/ClickBtn';
 import ModeToggler from './components/ModeToggler';
 import Dog from './components/grandChildren/Dog';
 import InputComponent from './components/InputComponent';
+import RegistrationForm from './components/RegistrationForm';
+
+
 // embedding atribute and adding image 
 function Pic (props) {
   const reactLogo = <img src={logo} className='react-logo'/>;
@@ -29,6 +32,8 @@ function App() {
       <Dog/>
       </div>
       <InputComponent/>
+      <RegistrationForm/>
+
 
       {/* The bag has props.children so it's working */}
       <Bag>
