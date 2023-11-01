@@ -8,7 +8,7 @@ import Pears from './components/propsChildren/Pears';
 import ClickBtn from './components/ClickBtn';
 import ModeToggler from './components/ModeToggler';
 import Dog from './components/grandChildren/Dog';
-
+import InputComponent from './components/InputComponent';
 // embedding atribute and adding image 
 function Pic (props) {
   const reactLogo = <img src={logo} className='react-logo'/>;
@@ -27,14 +27,15 @@ function App() {
       <ClickBtn/>
       <ModeToggler/>
       <Dog/>
-
       </div>
+      <InputComponent/>
 
       {/* The bag has props.children so it's working */}
       <Bag>
         <Apples color="yellow" number="5"/>
         <Pears friend="Peter"/>
       </Bag>
+
       <Bag>
         <Pears friend="Peter"/>
       </Bag>
