@@ -7,7 +7,7 @@ import Apples from './components/propsChildren/Apples';
 import Pears from './components/propsChildren/Pears';
 import ClickBtn from './components/ClickBtn';
 import ModeToggler from './components/ModeToggler';
-
+import Dog from './components/grandChildren/Dog';
 
 // embedding atribute and adding image 
 function Pic (props) {
@@ -26,6 +26,7 @@ function App() {
       <Pic/>
       <ClickBtn/>
       <ModeToggler/>
+      <Dog/>
 
       </div>
 
