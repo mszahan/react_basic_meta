@@ -10,6 +10,7 @@ import ModeToggler from './components/ModeToggler';
 import Dog from './components/grandChildren/Dog';
 import InputComponent from './components/InputComponent';
 import RegistrationForm from './components/RegistrationForm';
+import TextInputWithFocusButton from './components/TextInputWithFocusButton';
 
 
 // embedding atribute and adding image 
@@ -33,6 +34,7 @@ function App() {
       </div>
       <InputComponent/>
       <RegistrationForm/>
+      <TextInputWithFocusButton/>
 
 
       {/* The bag has props.children so it's working */}
