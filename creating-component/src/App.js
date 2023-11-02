@@ -11,7 +11,7 @@ import Dog from './components/grandChildren/Dog';
 import InputComponent from './components/InputComponent';
 import RegistrationForm from './components/RegistrationForm';
 import TextInputWithFocusButton from './components/TextInputWithFocusButton';
-
+import Main from './components/propsDrilling/Main';
 
 // embedding atribute and adding image 
 function Pic (props) {
@@ -35,6 +35,10 @@ function App() {
       <InputComponent/>
       <RegistrationForm/>
       <TextInputWithFocusButton/>
+
+      <Main msg='The drilled massage which traveld through 4 layers'/>
+
+
 
 
       {/* The bag has props.children so it's working */}
