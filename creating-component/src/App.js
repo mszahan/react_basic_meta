@@ -12,6 +12,9 @@ import InputComponent from './components/InputComponent';
 import RegistrationForm from './components/RegistrationForm';
 import TextInputWithFocusButton from './components/TextInputWithFocusButton';
 import Main from './components/propsDrilling/Main';
+import MealsProvider from './components/contextApi/MealsProvider';
+import MealsList from './components/contextApi/MealsList';
+import Counter from './components/contextApi/Counter';
 
 // embedding atribute and adding image 
 function Pic (props) {
@@ -26,6 +29,8 @@ function App() {
       <Nav title='Props'/>
       <Header name='Vues Enemy'/>
       <p className='para'>this is the paragraph</p>
+
+
       <div className='pic-div'>
       <Pic/>
       <ClickBtn/>
@@ -37,6 +42,11 @@ function App() {
       <TextInputWithFocusButton/>
 
       <Main msg='The drilled massage which traveld through 4 layers'/>
+
+      <MealsProvider>
+        <MealsList/>
+        <Counter/>
+      </MealsProvider>
 
 
 
