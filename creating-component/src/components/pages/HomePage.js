@@ -6,6 +6,7 @@ import Dog from "../grandChildren/Dog";
 import Bag from "../propsChildren/Bag";
 import Apples from "../propsChildren/Apples";
 import Pears from "../propsChildren/Pears";
+import DayPredictor from "../DayPredictor";
 
 // embedding atribute and adding image 
 function Pic (props) {
@@ -26,6 +27,7 @@ function HomePage(){
       <ModeToggler/>
       <Dog/>
       </div>
+      <DayPredictor/>
 
        {/* The bag has props.children so it's working */}
        <Bag>
