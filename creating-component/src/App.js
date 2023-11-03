@@ -15,6 +15,7 @@ import Main from './components/propsDrilling/Main';
 import MealsProvider from './components/contextApi/MealsProvider';
 import MealsList from './components/contextApi/MealsList';
 import Counter from './components/contextApi/Counter';
+import RidingApp from './components/RidingApp';
 
 // embedding atribute and adding image 
 function Pic (props) {
@@ -47,6 +48,8 @@ function App() {
         <MealsList/>
         <Counter/>
       </MealsProvider>
+
+      <RidingApp/>
 
 
 

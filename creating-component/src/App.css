@@ -69,12 +69,13 @@
 .button-primary {
 
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
   padding: 10px;
   color: #eee6e6;
   border: 0;
   background: #2a7077;
   border-radius: 20px;
+
 }
 
 .grand-child {
@@ -126,4 +127,12 @@
   border-radius: 5px;
   padding: 5px;
   margin-top: 5px;
+}
+
+.riding {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
 }
