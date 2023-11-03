@@ -59,6 +59,15 @@
   font-size: 1.25rem;
 }
 
+.main-nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav ul li a:hover{
+  color: #61dafb;
+}
+
 .pic-div {
   text-align: center;
 }
