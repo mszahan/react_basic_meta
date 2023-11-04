@@ -8,6 +8,7 @@ const Nav = props => {
                 <li><Link to='/forms'>Forms</Link></li>
                 <li><Link to='/props-drill'>Drills</Link></li>
                 <li><Link to='/ride'>Ride</Link></li>
+                <li><Link to='/assets'>Assets</Link></li>
                 <li>{props.title}</li>
 
             </ul>

@@ -10,7 +10,7 @@ import DayPredictor from "../DayPredictor";
 
 // embedding atribute and adding image 
 function Pic (props) {
-    const reactLogo = <img src={logo} className='react-logo'/>;
+    const reactLogo = <img src={logo} className='react-logo' alt='react logo'/>;
     return reactLogo;
   }
 
