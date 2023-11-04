@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import Nav from './components/Nav';
@@ -24,7 +23,6 @@ function App() {
       <Route path='/props-drill' element={<DrillPage/>}/>
       <Route path='/ride' element={<RidingApp/>}/>
       <Route path='/assets' element={<AssetPage/>}/>
-
     </Routes>
 
     </div>
